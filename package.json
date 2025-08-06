@@ -1,0 +1,50 @@
+{
+  "name": "bdggame-official",
+  "version": "1.0.0",
+  "description": "BDG GAME Official Website - SEO Optimized for Indian Market",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx http-server src -p 3000 -o",
+    "build": "node scripts/build.js",
+    "generate": "node scripts/generate-content.js",
+    "deploy": "npm run build && npm run deploy:cf",
+    "deploy:cf": "npx wrangler pages publish dist",
+    "test": "node scripts/test.js",
+    "lint": "npx htmlhint src/*.html",
+    "optimize": "node scripts/optimize.js"
+  },
+  "keywords": [
+    "BDG GAME",
+    "color prediction",
+    "online gaming",
+    "India",
+    "mobile game",
+    "official website"
+  ],
+  "author": "BDG GAME Official Team",
+  "license": "MIT",
+  "dependencies": {
+    "@google/generative-ai": "^0.2.1",
+    "marked": "^11.1.1",
+    "front-matter": "^4.0.2",
+    "fs-extra": "^11.2.0",
+    "glob": "^10.3.10"
+  },
+  "devDependencies": {
+    "http-server": "^14.1.1",
+    "htmlhint": "^1.1.4",
+    "wrangler": "^3.22.1",
+    "imagemin": "^8.0.1",
+    "imagemin-webp": "^8.0.0",
+    "clean-css": "^5.3.3",
+    "terser": "^5.26.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bdggame/official-website.git"
+  },
+  "homepage": "https://bdggamea.com",
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
