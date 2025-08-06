@@ -9,7 +9,7 @@
 [![GitHub Stars](https://img.shields.io/github/stars/BDGGAMEwin/BDGgame?style=social)](https://github.com/BDGGAMEwin/BDGgame/stargazers)
 [![GitHub Forks](https://img.shields.io/github/forks/BDGGAMEwin/BDGgame?style=social)](https://github.com/BDGGAMEwin/BDGgame/network/members)
 
-<img src="https://via.placeholder.com/800x400/1a1a2e/ffffff?text=BDG+GAME+Platform" alt="BDG GAME Platform" width="100%" style="border-radius: 10px; margin: 20px 0;">
+<img src="./logo.png" alt="BDG GAME Platform" width="100%" style="border-radius: 10px; margin: 20px 0;">
 
 *Delivering exceptional gaming experiences with cutting-edge technology*
 
