@@ -2,7 +2,7 @@
 
 # 🎮 BDG GAME
 
-**Professional Gaming Platform | 专业游戏平台**
+**Professional Gaming Platform**
 
 [![Website](https://img.shields.io/badge/Website-Online-brightgreen)](https://bdggame.com)
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
